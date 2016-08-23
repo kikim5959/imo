@@ -1,0 +1,304 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Notre portfolio">
+    <meta name="" content="Lend Kelmendi">
+    <title>PORTFOLIoO</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/full-slider.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media
+    queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file://
+    -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+ 
+
+ 
+  </head><body>
+    <!-- Navigation -->
+    <header id="nav">
+      <nav class="navbar navbar-fixed-top " role="navigation">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobmenu">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar white"></span>
+              <span class="icon-bar white"></span>
+              <span class="icon-bar white"></span>
+            </button>
+            <a class="navbar-brand" href="https://kikim5959.github.io/Portfolio/nospages.html">NOTRE PORTFOLIO </a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="mobmenu">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="nospages.html">Notre bio<br></a>
+              </li>
+              <li>
+                <a href="contact.html">Contact</a>
+              </li>
+              <li class="search-wrap">
+                <label for="search" class="search-toggle-label">
+                  <i class="fa fa-search"></i>
+                </label>
+                <input type="text" id="search" name="keywords" class="search">
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- /.container -->
+      </nav>
+    </header>
+    <!-- Full Page Image Background Carousel Header -->
+    <header id="myCarousel" class="carousel slide" data-interval="5000">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <!-- Wrapper for Slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <div class="fill" style="background-image:url('http://s2.lemde.fr/image/2015/04/08/534x267/4611577_3_939b_lignes-de-code-php_4f79cd53f304a46d897a10f5f4871322.jpg');"></div>
+          <div class="carousel-caption text-center header-text">
+            <h1 contenteditable="true">&nbsp;PORTFOLIO AKIM ET HOCiNe
+              <i class="fa fa-star fa-fw"></i>
+            </h1>
+          </div>
+        </div>
+        <div class="item">
+          <div class="fill" style="background-image:url('http://static.hitek.fr/img/actualite/matrice.jpg');"></div>
+          <div class="carousel-caption text-center header-text">
+            <h2>Apprendre pour mieux reussir</h2>
+          </div>
+        </div>
+        <div class="item">
+          <div class="fill" style="background-image:url('http://img.hebus.com/hebus_2011/01/01/preview/110101205021_11.jpg');"></div>
+          <div class="carousel-caption text-center header-text">
+            <h2>Nous somme Passionner du codage</h2>
+          </div>
+        </div>
+      </div>
+      <!-- Controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev" id="cLeft"></span>
+        </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next" id="cRight"></span>
+        </a>
+    </header>
+    <!-- Page Content -->
+    <div class="container">
+      <!-- Page Header -->
+      <!-- /.row -->
+      <!-- Portfolio Row -->
+      <hr>
+      <!-- /.row -->
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="page-header">au cours notre formation &nbsp;
+            <font color="#777777">
+              <span style="font-size: 23.4px; line-height: 23.4px;">les chose deja acquise&nbsp;</span>
+            </font>
+          </h1>
+        </div>
+      </div>
+      <hr>
+      <!-- Portfolio Row -->
+      <div class="row">
+        <div class="col-md-4 portfolio-item">
+          <a href="#" data-toggle="modal" data-target="#jpgmodal">
+                    <img class="img-responsive" src="demarrage-installation.png" alt="">
+                </a>
+          <h3>
+            <a href="https://debian-facile.org/doc:install:install">installation debian</a>
+          </h3>
+        </div>
+        <div class="col-md-4 portfolio-item">
+          <a href="#" data-toggle="modal" data-target="#jpgmodal">
+                    <img class="img-responsive" src="openssh-logo-grand.gif" alt="">
+                </a>
+          <h3 class="text-warning">
+            <a href="https://git-scm.com/book/fr/v1/Git-sur-le-serveur-G%C3%A9n%C3%A9ration-des-cl%C3%A9s-publiques-SSH">Creation et comprehension d'une clée ssh</a>
+          </h3>
+        </div>
+        <div class="col-md-4 portfolio-item">
+          <a href="#" data-toggle="modal" data-target="#jpgmodal">
+                    <img class="img-responsive" src="Github.png" alt="">
+                </a>
+          <h3>
+            <a href="http://rue89.nouvelobs.com/2015/03/31/quest-tous-les-techos-monde-font-github-258439">outil communautaire partage de projet </a>
+          </h3>
+        </div>
+      </div>
+      <hr>
+      <hr>
+      <footer></footer>
+      <!-- /.container -->
+      <!-- jQuery -->
+      <script src="js/jquery.js"></script>
+      <!-- Bootstrap Core JavaScript -->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jqueryEase.js" type="text/javascript"></script>
+      <script type="text/javascript" src="js/main.js"></script>
+      <!-- Script to Activate the Carousel -->
+      <script>
+        $('.carousel').carousel({
+                                                                                            interval: 3000 //changes the speed
+                                                                                        })
+      </script>
+      <!-- All images are CC and taken from wikimedia -->
+    </div>
+    <div class="col-md-4 portfolio-item"></div>
+    <div class="container">
+      <!-- Page Header -->
+      <!-- /.row -->
+      <!-- Portfolio Row -->
+      <!-- /.row -->
+      <hr>
+      <!-- Portfolio Row -->
+      <div class="row">
+        <div class="col-md-4 portfolio-item">
+          <a href="http://christophe-f.developpez.com/tutoriels/css/cours-css/syntaxe-regle-css/" data-toggle="modal" data-target="#jpgmodal">
+                    <img class="img-responsive" src="html.svg" alt="">
+                </a>
+          <h3>
+            <a href="http://christophe-f.developpez.com/tutoriels/css/cours-css/syntaxe-regle-css/">Structurée une page html et comprendre css</a>
+          </h3>
+        </div>
+        <div class="col-md-4 portfolio-item">
+          <a href="#" data-toggle="modal" data-target="#jpgmodal">
+                    <img class="img-responsive" src="0Byl10FMs5_W5cGdYVFR2Sm83Vjg.png" alt="">
+                </a>
+          <h3>Nos cheat cheet -&gt;
+            <a href="https://github.com/kikim5959">cheat sheet 1 </a>
+            <a href="https://twitter.com/hoceheisenberg">cheat sheet 2 </a>
+          </h3>
+        </div>
+        <div class="col-md-4 portfolio-item">
+          <a href="#" data-toggle="modal" data-target="#jpgmodal">
+                    <img class="img-responsive" src="39840_648x288.jpg" alt="">
+                </a>
+          <h3>
+            <a href="https://openclassrooms.com/courses/prenez-en-main-bootstrap/mise-en-route-8">compréhension et installation des framework</a>
+          </h3>
+        </div>
+      </div>
+      <hr>
+      <hr>
+      <footer></footer>
+      <!-- /.container -->
+      <!-- jQuery -->
+      <script src="js/jquery.js"></script>
+      <!-- Bootstrap Core JavaScript -->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jqueryEase.js" type="text/javascript"></script>
+      <script type="text/javascript" src="js/main.js"></script>
+      <!-- Script to Activate the Carousel -->
+      <script>
+        $('.carousel').carousel({
+                                                                                            interval: 3000 //changes the speed
+                                                                                        })
+      </script>
+      <!-- All images are CC and taken from wikimedia -->
+    </div>
+    <div class="container">
+      <!-- Page Header -->
+      <!-- /.row -->
+      <!-- Portfolio Row -->
+      <!-- /.row -->
+      <hr>
+      <!-- Portfolio Row -->
+      <div class="row">
+        <div class="col-md-5 portfolio-item">
+          <a href="#" data-toggle="modal" data-target="#jpgmodal">
+                    <img class="center-block img-responsive" src="javascript-logo-png.png" alt="">
+                </a>
+          <h3>
+            <a href="https://fr.wikipedia.org/wiki/JavaScript">comprehension javascript</a>
+          </h3>
+        </div>
+      </div>
+      <hr>
+      <hr>
+      <footer></footer>
+      <!-- /.container -->
+      <!-- jQuery -->
+      <script src="js/jquery.js"></script>
+      <!-- Bootstrap Core JavaScript -->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jqueryEase.js" type="text/javascript"></script>
+      <script src="js/main.js" type="text/javascript"></script>
+      <!-- Script to Activate the Carousel -->
+      <script>
+        $('.carousel').carousel({
+                                                                                            interval: 3000 //changes the speed
+                                                                                        })
+      </script>
+      <!-- All images are CC and taken from wikimedia -->
+    </div>
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <ul class="list-inline text-center">
+        <li>
+          <a href="https://twitter.com/hoceheisenberg">
+                                    <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                                </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=100008261418522">
+                                    <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                                </a>
+        </li>
+        <li>
+          <a href="#">
+                                    <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                                </a>
+        </li>
+      </ul>
+      <p class="copyright text-muted" style="text-align: center">Copyright © aKIMM and hocine</p>
+      <nav id="footerNav">
+        <a href="index.html">Home</a>
+        <a href="artists.html">notre bio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  
+<script type="text/javascript">
+    var adfly_id = 14272929;
+    var adfly_advert = 'int';
+    var frequency_cap = 5;
+    var frequency_delay = 5;
+    var init_delay = 3;
+    var popunder = true;
+</script>
+
+    <script src="https://cdn.adf.ly/js/entry.js"></script>
+ 
+ 
+
+</body></html>
